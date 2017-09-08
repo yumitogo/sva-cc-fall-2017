@@ -30,12 +30,16 @@
     * [John Maeda Design](https://www.google.com/search?q=john+maeda&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjdlPai1b_RAhUs7oMKHXA_A7UQ_AUICSgC&biw=1167&bih=888#tbm=isch&q=john+maeda+graphic+design&imgrc=PhLxs7TrTqQ07M%3A)
     * [Zach Liberman's Instagram](https://www.instagram.com/zach.lieberman/?hl=en)
     * [Sharing Face](https://vimeo.com/96549043)
-  * What is [P5.js](https://p5js.org/)
+  * The history of [P5.js](https://p5js.org/) and [Processing](https://processing.org/)
   * [Example](https://jinsung.github.io/sva-cc-fall-2017/week01/examples/01/index.html)
-* Course Intro / Expectation
+* Course Intro
   * Overview / Syllabus
 * Using Github
-* Homework / Final Project
+  * Version Control
+  * Create an account / Install [Github Desktop](https://desktop.github.com/)
+* Editor
+  * [Atom](https://atom.io/)
+* Homework / Final Project / Quiz
 
 ### Week 2 -- Drawing
 * Topics
