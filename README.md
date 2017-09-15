@@ -7,7 +7,7 @@
 - This course involves an exploration of programming as a tool of visual communication and interactivity between computer and people. This is a project-based course. Students will learn computer programming by their hands-on experiences. During the semester the p5.js will be used to illustrate fundamental of computation.
 
 ## RESOURCES
-- [p5.js tutorials](http://p5js.org/tutorials/)
+- [p5.js tutorials](https://p5js.org/learn/)
 - [p5.js reference](http://p5js.org/reference)
 - [Getting Started with p5.js](http://amzn.to/1PmztVt)
 - [Learning Processing](http://learningprocessing.com/)
@@ -30,12 +30,16 @@
     * [John Maeda Design](https://www.google.com/search?q=john+maeda&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjdlPai1b_RAhUs7oMKHXA_A7UQ_AUICSgC&biw=1167&bih=888#tbm=isch&q=john+maeda+graphic+design&imgrc=PhLxs7TrTqQ07M%3A)
     * [Zach Liberman's Instagram](https://www.instagram.com/zach.lieberman/?hl=en)
     * [Sharing Face](https://vimeo.com/96549043)
-  * What is [P5.js](https://p5js.org/)
+  * The history of [P5.js](https://p5js.org/) and [Processing](https://processing.org/)
   * [Example](https://jinsung.github.io/sva-cc-fall-2017/week01/examples/01/index.html)
-* Course Intro / Expectation
+* Course Intro
   * Overview / Syllabus
 * Using Github
-* Homework / Final Project
+  * Version Control
+  * Create an account / Install [Github Desktop](https://desktop.github.com/)
+* Editor
+  * [Atom](https://atom.io/)
+* Homework / Final Project / Quiz
 
 ### Week 2 -- Drawing
 * Topics
