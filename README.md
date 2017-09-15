@@ -41,20 +41,16 @@
   * [Atom](https://atom.io/)
 * Homework / Final Project / Quiz
 
-### Week 2 -- Drawing
+### Week 2 -- Tools and basic concept
 * Topics
   * Using Github
   * Step-by-step approach
-  * Pixels and Color
+  * Canvas, Pixels and Color
   * Setup / Draw Functions
   * Shapes
+  * Using Chrome developer tool 
 * Examples
-* Assignment : Generative art #1
-   * Draw shapes
-   * No background
-   * Time or interactive based
-   * Use different colors for stroke and fill
-   * Use If statement.
+  * [01]((https://jinsung.github.io/sva-cc-fall-2017/week02/examples/setup_draw/index.html)
 
 ### Week 3 -- Variables and Animation
 * Topics
@@ -67,6 +63,12 @@
   * Easing
   * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260) | [03](http://box2d-js.sourceforge.net/index2.html)
 * Examples
+* Assignment : Generative art #1
+   * Draw shapes
+   * No background
+   * Time or interactive based
+   * Use different colors for stroke and fill
+   * Use If statement.
 
 ### Week 4 -- Conditionals / Loop
 * Topics
