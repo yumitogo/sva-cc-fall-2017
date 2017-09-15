@@ -41,13 +41,14 @@
   * [Atom](https://atom.io/)
 * Homework / Final Project / Quiz
 
-### Week 2 -- Drawing
+### Week 2 -- Tools and basic concept
 * Topics
   * Using Github
   * Step-by-step approach
   * Canvas, Pixels and Color
   * Setup / Draw Functions
   * Shapes
+  * Using Chrome developer tool 
 * Examples
   * [01]((https://jinsung.github.io/sva-cc-fall-2017/week02/examples/setup_draw/index.html)
 
