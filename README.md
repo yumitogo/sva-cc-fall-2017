@@ -12,6 +12,13 @@
 - [Getting Started with p5.js](http://amzn.to/1PmztVt)
 - [Learning Processing](http://learningprocessing.com/)
 
+## Grading
+* Attendance - 30 %
+* Assignment #1 - 20%
+* Assignment #2 - 20%
+* Final - 30%
+
+
 ## Start Local Web Server.
  * In Finder, open Terminal that is located in /Applications/Utilities/Terminal
  * cd {yourProjectFolder} or drag your project folder
