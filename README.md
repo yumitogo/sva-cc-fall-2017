@@ -19,7 +19,9 @@
 * Final - 30%
 
 
-## Start Local Web Server.
+## Tools
+
+### Start Local Web Server.
  * In Finder, open Terminal that is located in /Applications/Utilities/Terminal
  * cd {yourProjectFolder} or drag your project folder
  * python -m SimpleHTTPServer 8000
