@@ -50,7 +50,7 @@
   * Shapes
   * Using Chrome developer tool 
 * Examples
-  * [01]((https://jinsung.github.io/sva-cc-fall-2017/week02/examples/setup_draw/index.html)
+  * [01](https://jinsung.github.io/sva-cc-fall-2017/week02/examples/setup_draw/index.html)
 
 ### Week 3 -- Variables and Animation
 * Topics
