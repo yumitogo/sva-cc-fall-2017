@@ -12,7 +12,16 @@
 - [Getting Started with p5.js](http://amzn.to/1PmztVt)
 - [Learning Processing](http://learningprocessing.com/)
 
-## Start Local Web Server.
+## Grading
+* Attendance - 30 %
+* Assignment #1 - 20%
+* Assignment #2 - 20%
+* Final - 30%
+
+
+## Tools
+
+### Start Local Web Server.
  * In Finder, open Terminal that is located in /Applications/Utilities/Terminal
  * cd {yourProjectFolder} or drag your project folder
  * python -m SimpleHTTPServer 8000
@@ -144,3 +153,8 @@
 ### Week 14 -- Final Project Presentation
 
 ### Week 15 -- Final Project Presentation
+
+
+## Students with Disabilities
+
+In order to receive academic accommodations due to a disability, a student must first register with the Office of Disability Services (ODS). Students approved for accommodations will be given an ODS Accommodation Letter to submit to their instructors. If a student does not provide an ODS Accommodation Letter to their instructor, they will not be eligible to receive accommodations in that course. All instructors are required to adhere to SVA’s policies regarding accommodations for students with disabilities. Students who have a need for academic accommodations, or suspect they may have a disability, should contact the ODS via telephone: 212-592-2396, or visit the office: 340 East 24th Street, 1st Floor, New York, NY 10010, or email: disabilityresources@sva.edu.
