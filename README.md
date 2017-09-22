@@ -57,21 +57,21 @@
   * Canvas, Pixels and Color
   * Setup / Draw Functions
   * Shapes
-  * Using Chrome developer tool 
+  * Using Chrome developer tool
 * Examples
   * [01](https://jinsung.github.io/sva-cc-fall-2017/week02/examples/setup_draw/index.html)
 
 ### Week 3 -- Variables and Animation
 * Topics
   * Comment
-  * Setup & Draw & Background
-  * Variables
-  * Interaction
-  * MouseX and MouseY
-  * Animation
-  * Easing
-  * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260) | [03](http://box2d-js.sourceforge.net/index2.html)
-* Examples
+  * [Variables / Scope](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/02_variables/index.html)
+  * [Built in variables](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/03_1_built_in_variables/index.html)
+  * [Animation](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/03_1_built_in_variables/index.html)
+  * [MouseX and MouseY & Previous Mouse Position](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/05_pmouse/index.html)
+  * [Interaction](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/05_pmouse/index.html)
+  * [Random Numbers](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/07_random/index.html)
+  * [Easing](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/08_easing/index.html)
+  * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260)
 * Assignment : Generative art #1
    * Draw shapes
    * No background
