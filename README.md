@@ -12,7 +12,16 @@
 - [Getting Started with p5.js](http://amzn.to/1PmztVt)
 - [Learning Processing](http://learningprocessing.com/)
 
-## Start Local Web Server.
+## Grading
+* Attendance - 30 %
+* Assignment #1 - 20%
+* Assignment #2 - 20%
+* Final - 30%
+
+
+## Tools
+
+### Start Local Web Server.
  * In Finder, open Terminal that is located in /Applications/Utilities/Terminal
  * cd {yourProjectFolder} or drag your project folder
  * python -m SimpleHTTPServer 8000
@@ -48,21 +57,21 @@
   * Canvas, Pixels and Color
   * Setup / Draw Functions
   * Shapes
-  * Using Chrome developer tool 
+  * Using Chrome developer tool
 * Examples
   * [01](https://jinsung.github.io/sva-cc-fall-2017/week02/examples/setup_draw/index.html)
 
 ### Week 3 -- Variables and Animation
 * Topics
   * Comment
-  * Setup & Draw & Background
-  * Variables
-  * Interaction
-  * MouseX and MouseY
-  * Animation
-  * Easing
-  * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260) | [03](http://box2d-js.sourceforge.net/index2.html)
-* Examples
+  * [Variables / Scope](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/02_variables/index.html)
+  * [Built in variables](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/03_1_built_in_variables/index.html)
+  * [Animation](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/03_1_built_in_variables/index.html)
+  * [MouseX and MouseY & Previous Mouse Position](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/05_pmouse/index.html)
+  * [Interaction](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/05_pmouse/index.html)
+  * [Random Numbers](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/07_random/index.html)
+  * [Easing](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/08_easing/index.html)
+  * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260)
 * Assignment : Generative art #1
    * Draw shapes
    * No background
@@ -144,3 +153,8 @@
 ### Week 14 -- Final Project Presentation
 
 ### Week 15 -- Final Project Presentation
+
+
+## Students with Disabilities
+
+In order to receive academic accommodations due to a disability, a student must first register with the Office of Disability Services (ODS). Students approved for accommodations will be given an ODS Accommodation Letter to submit to their instructors. If a student does not provide an ODS Accommodation Letter to their instructor, they will not be eligible to receive accommodations in that course. All instructors are required to adhere to SVA’s policies regarding accommodations for students with disabilities. Students who have a need for academic accommodations, or suspect they may have a disability, should contact the ODS via telephone: 212-592-2396, or visit the office: 340 East 24th Street, 1st Floor, New York, NY 10010, or email: disabilityresources@sva.edu.
