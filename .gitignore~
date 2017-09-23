@@ -1,11 +1,8 @@
 <<<<<<< HEAD
 .DS_Store
 =======
-<<<<<<< HEAD
-
-work/jennywu/.DS_Store
-work/jennywu/week2/01/sketch.js
-=======
 .DS_Store
->>>>>>> b520069f3bb1d7a814a9b569a7d2e7efc620da91
->>>>>>> af562d53070b14cf1a1f74e885d044852f4a90a6
+week02/.DS_Store
+week02/examples/.DS_Store
+work/.DS_Store
+>>>>>>> 94b3b7f9e8078b3181e3c68ed0354b9463e54a77
