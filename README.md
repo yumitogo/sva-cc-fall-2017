@@ -81,9 +81,16 @@
 
 ### Week 4 -- Conditionals / Loop
 * Topics
-  * If Else
-  * Loop
-* Examples
+  * [Boolean Expression](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/01_boolean_expression/index.html)
+  * [Logical Operators](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/02_logical_operator/index.html)
+  * [Button](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/03_button/index.html)
+  * [Bouncing Ball](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/04_bouncing_ball/index.html)
+  * [Many Lines](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/06_many_lines/index.html)
+  * [Many Lines with Variables](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/07_many_lines2/index.html)
+  * [While Loop](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/08_while_loop/index.html)
+  * [For Loop](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/09_for_loop/index.html)
+  * [For Loop 2](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/10_customization/index.html)
+  * [For Loop 3](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/11_for_loop2/index.html)
 
 ### Week 5 -- Functions - Assignment 1 due date
 * Assignment review
@@ -105,7 +112,7 @@
 
 ### Week 7 -- Physics
 * Topics
-  * Gravity
+  * [Gravity](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/01_gravity/index.html)
   * Doodle jump
 * Examples
 
