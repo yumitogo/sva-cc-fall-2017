@@ -12,7 +12,7 @@ function draw() {
 
   myHue += 4;
   stroke(0);
-  fill(myhue, 60, 50);
+  fill(myHue, 60, 50);
   strokeWeight(3);
 
   //I am drawing a line here!
