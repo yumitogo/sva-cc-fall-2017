@@ -89,8 +89,9 @@
   * [Many Lines with Variables](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/07_many_lines2/index.html)
   * [While Loop](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/08_while_loop/index.html)
   * [For Loop](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/09_for_loop/index.html)
-  * [For Loop 2](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/10_customization/index.html)
+  * [For Loop 2](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/10_for_loop1/index.html)
   * [For Loop 3](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/11_for_loop2/index.html)
+  * [Nested For Loop](https://jinsung.github.io/sva-cc-fall-2017/week04/examples/12_nested_loop/index.html)
 
 ### Week 5 -- Functions - Assignment 1 due date
 * Assignment review
