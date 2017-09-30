@@ -1,40 +1,35 @@
-var circleSize;
+
 var xPos = 200;
 var yPos = 200;
 
 
 function setup() {
   createCanvas(400, 400);
-  console.log("circleSize;"+circleSize);
+  //console.log("circleSize;"+circleSize);
 
 }
 
 function draw() {
   background(200);
 
-  circleSize = 240;
-  var redColor = frameCount;
 
+  var redColor = 255;
   fill(redColor, 0, 0);
-  ellipse(mouseX, mouseY, circleSize, circleSize);
 
-  circleSize = circleSize-10;
-  redColor -= 10;
-  fill(redColor, 0, 0);
-  ellipse(xPos, yPos, circleSize, circleSize);
+  for (var i = 0; i < 100; i ++){
+    sizeOfCircle -= 2;
+    fill(redColor, 0, 0);
+    ellipse(xPos, yPos, sizeOfCircle, sizeOfCircle);
+    var sizeOfCircle = width - i * 3;
 
-  circleSize = circleSize -10;
-  redColor -= 10;
-  fill(redColor, 0, 0);
-  ellipse(xPos, yPos, circleSize, circleSize);
+  }
+  /*
+  for (var sizeOfCircle =100; sizeOfCircle > 0; sizeOfCircle = sizeOfCircle - 10){
+    sizeOfCircle -= 20;
+    fill(redColor, 0, 0);
+    ellipse(xPos, yPos, sizeOfCircle, sizeOfCircle);
 
-  circleSize = circleSize-10;
-  redColor -= 10;
-  fill(redColor, 0, 0);
-  ellipse(xPos, yPos, circleSize, circleSize);
-
-  xPos += 1;
-  yPos += 1;
-
+  }
+*/
 
 }
