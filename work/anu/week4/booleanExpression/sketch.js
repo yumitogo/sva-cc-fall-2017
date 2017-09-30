@@ -18,8 +18,8 @@ function draw() {
   fill(255);
   rect(100, 0, 100, height-1);*/
 
-  background(100);
-  fill(188, 225, 235);
+  background(163, 247, 255);
+  fill(116, 82, 255);
   noStroke();
   ellipse(circleX, circleY, 30, 30);
 
