@@ -1,29 +1,28 @@
-var circleX = 0;
-var circleY = 100;
-var speedX = 10;
-var speedY = 10;
-
 function setup() {
-  createCanvas(300, 300);
+  createCanvas(400, 400);
+  console.log("xPos: " + xPos);
 }
+
+var xPos = 200;
+var yPos = 200;
 
 
 function draw() {
-  background(100);
-  noStroke();
-  fill(255);
-  ellipse(circleX, circleY, 30, 30);
+background(200);
+
+var redColor = 255;
+
+fill(redColor, 0, 0);
+
+//for ( var ellipsesize = 400; ellipsesize > 0; ellipsesize = eliipsesize - 10 )
 
 
-  if (circleX > width || circleX < 0) {
-    speedX = speedX * -1;
-  }
+for(var i = 0; i < 100; i++) {
+  redColor -= 2;
+  fill(redColor, 0 ,0);
+  var circleSize = width - i*3;
+  ellipse(xPos, yPos, circleSize, circleSize);
+}
 
-  if (circleY > height || circleY < 0) {
-    speedY = speedY * -1;
-  }
-
-  circleX = circleX + speedX;
-  circleY = circleY + speedY;
 
 }
