@@ -6,11 +6,8 @@ function setup() {
 function draw() {
   background(255);
 
-  var blueColor = 255;
-  fill(100, 20, blueColor, 50);
-
  var myVar = 0;
- var numOfLoop = 300;
+ var numOfLoop = 100;
  var circleSize = 40;
 
  for (var i = 0 ; i < numOfLoop; i++ ){
@@ -20,7 +17,7 @@ function draw() {
    var yPos = Math.sin(theta) * radius + height/2;
 
    noStroke();
-   fill(30 + i*1 *50, 100, 100);
+   fill(200 + i*1, 100, 100);
    ellipse(xPos, yPos, circleSize, circleSize)
  }
 
