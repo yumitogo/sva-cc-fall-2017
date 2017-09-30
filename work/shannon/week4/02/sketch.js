@@ -1,43 +1,24 @@
+var xPos = 300;
+var yPos = 300;
 
 function setup() {
-  createCanvas(800, 800);
-  console.log("xPos: "+ xPos);
+  createCanvas(600, 600);
 }
 
-
-  var xPos = 800;
-  var yPos = 800;
-
 function draw() {
-  background(0);
+  background(255);
 
-  var sizeOfCicle =300;
-  var redColor = frameCount;
+ var blueColor = 255;
+ fill(0, 0, blueColor);
 
-  xPos -= 1;
-  yPos -= 1;
-  redColor -=0.01;
 
-  noStroke();
-  fill(redColor,0,0);
-  ellipse(xPos,yPos,sizeOfCicle, sizeOfCicle);
-
-  redColor-=20;
-  sizeOfCicle = sizeOfCicle-20;
-  noStroke();
-  fill(redColor,0,0);
-  ellipse(xPos,yPos,sizeOfCicle, sizeOfCicle);
-
-  redColor-=20;
-  sizeOfCicle = sizeOfCicle-20;
-  noStroke();
-  fill(redColor,0,0);
-  ellipse(xPos,yPos,sizeOfCicle, sizeOfCicle);
-
-  redColor-=20;
-  sizeOfCicle = sizeOfCicle-20;
-  noStroke();
-  fill(redColor,0,0);
-  ellipse(xPos,yPos,sizeOfCicle, sizeOfCicle);
+//i++ = i=i+1
+// for (var sizeOfCicle = 300; sizeOfCicle > 0; sizeOfCicle = sizeOfCicle - 10){
+for (var i=0; i<50; i++){
+   blueColor -= 5;
+   fill(0, 0, blueColor);
+   var circleSize = width - i*10
+   ellipse(xPos, yPos, circleSize, circleSize)
+ }
 
 }
