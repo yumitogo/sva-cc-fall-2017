@@ -1,7 +1,7 @@
 var circleX=0;
 var circleY=70;
 var speedX = 2;
-var speedY = 2;
+var speedY = 1;
 
 function setup() {
   createCanvas(300, 300);
