@@ -1,35 +1,24 @@
 function setup() {
   createCanvas(400, 400);
-  console.log("something")
 }
 
 var xPos = 200;
 var yPos = 200;
 
-
 function draw() {
-
-  var redColor = frameCount;
-  var sizeOFcircle = 100;
-
   background(200);
+
+  var redColor = 255;
+
   fill(redColor,0,0);
-  ellipse(xPos,yPos,sizeOFcircle,sizeOFcircle);
 
-  redColor -= 20;
-  sizeOFcircle = sizeOFcircle - 20;
-  fill(redColor,0,0);
-  ellipse(xPos,yPos,sizeOFcircle,sizeOFcircle);
+  var myVar = 0;
 
-  redColor -= 20;
-  sizeOFcircle = sizeOFcircle - 20;
-  fill(redColor,0,0);
-  ellipse(xPos,yPos,sizeOFcircle,sizeOFcircle);
-
-  redColor -= 20;
-  sizeOFcircle = sizeOFcircle - 20;
-  fill(redColor,0,0);
-  ellipse(xPos,yPos,sizeOFcircle,sizeOFcircle);
-
-
+    // for ( var sizeOFcircle = 100; sizeOFcircle > 0;sizeOFcircle = sizeOFcircle - 10) {
+for (var i = 0; i<100; i++){
+    redColor -= 2;
+    fill(redColor,0,0);
+    var circleSize = width - i*3;
+    ellipse(xPos,yPos,circleSize,circleSize);
+  }
 }
