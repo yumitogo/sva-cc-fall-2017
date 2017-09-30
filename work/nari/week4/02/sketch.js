@@ -5,28 +5,28 @@ function setup() {
 var xPos = 200;
 var yPos = 200;
 
+
 function draw() {
   background(200);
+  var redColor = 255;
 
-  var redColor = frameCount;
-  var sizeOfCircle = 100;
+  fill(redColor, 0, 0);
 
-  fill(redColor,0,0);
-  ellipse(mouseX,mouseY,sizeOfCircle,sizeOfCircle);
+// this is for loop. it is made up of 3 statements inside (declare, condition (t or f), changing the variable you declared)
 
-  redColor -= 20;
-  sizeOfCircle = sizeOfCircle - 20;
-  fill(redColor,0,0);
-  ellipse(xPos,yPos,sizeOfCircle,sizeOfCircle);
+//  for (var sizeOfCircle = 100; sizeOfCircle > 0; sizeOfCircle = sizeOfCircle - 10){
+  var myVar = 100;
 
-  redColor -= 20;
-  sizeOfCircle = sizeOfCircle - 20;
-  fill(redColor,0,0);
-  ellipse(xPos,yPos,sizeOfCircle,sizeOfCircle);
+// these three statements below are the same thing.
+//  myVar = myVar + 1;
+//  myVar += 1;
+// because the value is 1, you can use ++ syntax. will not work with other numbers.
+//  myVar ++;
 
-  redColor -= 20;
-  sizeOfCircle = sizeOfCircle - 20;
-  fill(redColor,0,0);
-  ellipse(xPos,yPos,sizeOfCircle,sizeOfCircle);
-
+  for (var i = 0; i < 20; i++) {
+    redColor -= 20;
+    fill(redColor, 0, 0);
+    var circleSize = 200 - i*3;
+    ellipse(xPos, yPos, circleSize, circleSize);
+  }
 }
