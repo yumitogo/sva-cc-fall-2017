@@ -72,12 +72,12 @@
   * [Random Numbers](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/07_random/index.html)
   * [Easing](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/08_easing/index.html)
   * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260)
-* Assignment : Generative art #1
-   * Draw shapes
-   * Time or interactive based
-   * Use different colors for stroke and fill
-   * Use If statement.
-   * Use For loop for bonus points!
+* Assignment: Generative art #1
+  * Draw shapes
+  * Make time or interactive based animation
+  * Play with colors
+  * Use If statement.
+  * Use For loop for bonus points!
 
 ### Week 4 -- Conditionals / Loop
 * Topics
