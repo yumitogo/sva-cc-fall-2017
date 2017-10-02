@@ -74,10 +74,10 @@
   * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260)
 * Assignment : Generative art #1
    * Draw shapes
-   * No background
    * Time or interactive based
    * Use different colors for stroke and fill
    * Use If statement.
+   * Use For loop for bonus points!
 
 ### Week 4 -- Conditionals / Loop
 * Topics
