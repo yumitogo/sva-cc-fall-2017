@@ -12,16 +12,19 @@ function draw() {
   var rotAmount = 0.5;
 
   for (var i = 0; i < numRect; i++) {
-    var inverseI = (numRect-i)/numRect;
+    var fi = i/numRect;
+    var ifi = 1-fi;
 
     push();
     translate(width/2, height/2);
     var anim = Math.sin(frameCount*0.01);
-    rotate( anim * ( PI*rotAmount ) * inverseI );
-    strokeWeight(inverseI);
-    fill(0, inverseI*20);
+    rotate( anim * ( PI*rotAmount ) * fi );
+    strokeWeight(fi);
+    //noStroke();
+    fill(0, 255/numRect);
     var size = width/numRect * i;
-    rect(0, 0, size, size);
+    scale(ifi);
+    rect(0, 0, width, height);
     pop();
   }
 

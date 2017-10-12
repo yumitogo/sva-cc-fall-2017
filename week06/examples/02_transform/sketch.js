@@ -17,10 +17,12 @@ function draw() {
   translate(transX, transY);
   var numRect = 3;
   for (var i=0; i<numRect; i++) {
+    var fi = i/numRect;
+    var ifi = 1-fi;
     push();
-    var inverseI = numRect - i;
     rotate(radians(30));
-    rect(rectX, rectY, inverseI * 50, inverseI * 50);
+    scale(ifi, ifi);
+    rect(rectX, rectY, 100, 100);
     pop();
   }
   //rect( rectX+transX, rectY+transY, 100, 100 );
