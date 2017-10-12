@@ -4,6 +4,7 @@ function setup() {
 }
 
 function draw() {
+  background(230);
   var size = 10;
   for (var i = 0; i < 5; i++) {
     var offset = 10;
