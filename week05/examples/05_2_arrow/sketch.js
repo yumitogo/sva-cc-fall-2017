@@ -15,8 +15,18 @@ function draw() {
   background(backgroundColor);
 
   drawTarget(targetX, targetY, 5, 80);
-  locateArrow()
-  drawArrow(arrowX, arrowY, targetX, targetY);
+
+  locateArrow();
+
+  var dx = arrowX - targetX;
+  var dy = arrowY - targetY;
+  var angle = Math.atan2(dy, dx);
+
+  push();
+  translate(arrowX, arrowY);
+  rotate(angle);
+  drawArrow();
+  pop();
 }
 
 function mousePressed () {
@@ -45,36 +55,24 @@ function locateArrow () {
   }
 }
 
-function drawArrow(x1, y1, x2, y2) {
-  var dx = x1 - x2;
-  var dy = y1 - y2;
-  var angle = Math.atan2(dy, dx);
-
-  // move canvas instead of elements
-  // 2D trasformation - https://processing.org/tutorials/transform2d/
-  push();
-  translate(x1, y1);
-  rotate(angle);
+function drawArrow() {
   var length = 60;
-  var red = 255-getDistance(x1, y1, x2, x2);
-  stroke (red, 0, 0);
-  fill (red, 0, 0);
   triangle(0, 0, 10, 3, 10, -3);
   line(0, 0, length, 0 );
 
-  // draw feather
+  // draw feathers
   var featherPos = 0.7;
   var featherSize = 5;
-  for (var i = 0; i < 4; i++) {
-    drawFeather(length * featherPos, 0, featherSize);
+  var numOfFeathers = 4;
+  for (var i = 0; i < numOfFeathers; i++) {
+    drawFeather(length * featherPos, featherSize);
     featherPos += 0.1;
   }
-  pop();
 }
 
-function drawFeather(x1, y1, size) {
-  line (x1, y1, x1 + size, size);
-  line (x1, y1, x1 + size, -size);
+function drawFeather(pos, size) {
+  line (pos, 0, pos + size, size);
+  line (pos, 0, pos + size, -size);
 }
 
 function throwArrow() {
