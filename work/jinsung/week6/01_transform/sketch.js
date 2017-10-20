@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(255);
   strokeWeight(0.2);
   //fill(100);
   noFill();
@@ -18,7 +18,8 @@ function draw() {
     var ptr = 1-fi;
     translate(width/2, height/2);
     strokeWeight(fi);
-    rotate(radians(180) * 0.5 * fi * anim);
+    stroke(121, 211 * fi, ptr * 255);
+    rotate(radians(180) * 1.5 * fi * anim);
     scale(ptr);
     rect(0, 0, width, height);
     pop();
