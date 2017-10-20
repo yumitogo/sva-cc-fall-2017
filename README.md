@@ -116,17 +116,17 @@
 
 ### Week 7 -- OOP / Array
 * Topics
-  * Define Function(https://jinsung.github.io/sva-cc-fall-2017/week07/examples/01_define_function/index.html)
-  * Call Function(https://jinsung.github.io/sva-cc-fall-2017/week07/examples/02_call_function/index.html)
-  * Modularity Function(https://jinsung.github.io/sva-cc-fall-2017/week07/examples/03_modularity_function/index.html)
-  * Function Return Value(https://jinsung.github.io/sva-cc-fall-2017/week07/examples/03_return_value_function/index.html)
-  * Javascript Object(https://jinsung.github.io/sva-cc-fall-2017/week07/examples/04_object/index.html)
-  * Class(https://jinsung.github.io/sva-cc-fall-2017/week07/examples/05_class/index.html )
-  * Class / Separate file(https://jinsung.github.io/sva-cc-fall-2017/week07/examples/06_class_in_file/index.html)
-  * Array(https://jinsung.github.io/sva-cc-fall-2017/week07/examples/07_array/index.html)
-  * Array and For loop(https://jinsung.github.io/sva-cc-fall-2017/week07/examples/08_array_and_for_loop/index.html)
-  * Array and For loop 2(https://jinsung.github.io/sva-cc-fall-2017/week07/examples/09_array_and_for_loop_arrow/index.html)
-  * Array and For loop 2(https://jinsung.github.io/sva-cc-fall-2017/week07/examples/10_many_arrows/index.html)
+  * [Define Function](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/01_define_function/index.html)
+  * [Call Function](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/02_call_function/index.html)
+  * [Modularity Function](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/03_modularity_function/index.html)
+  * [Function Return Value](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/03_return_value_function/index.html)
+  * [Javascript Object](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/04_object/index.html)
+  * [Class](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/05_class/index.html )
+  * [Class / Separate file](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/06_class_in_file/index.html)
+  * [Array](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/07_array/index.html)
+  * [Array and For loop](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/08_array_and_for_loop/index.html)
+  * [Array and For loop 2](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/09_array_and_for_loop_arrow/index.html)
+  * [Many Arrows](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/10_many_arrows/index.html)
 
 ### Week 8 -- Vector / Force / Particle System
 * Topics
