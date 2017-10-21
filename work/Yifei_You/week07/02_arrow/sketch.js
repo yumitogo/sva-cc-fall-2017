@@ -1,20 +1,18 @@
-var myArrow;
-var myArrow2;
-var myArrow3;
-var myArrow4;
+var myArrows = [];
 
 function setup() {
   createCanvas(500, 500);
-  myArrow = new Arrow(250,100);
-  myArrow2 = new Arrow(250,200);
-  myArrow3 = new Arrow(250,300);
-  myArrow4 = new Arrow(250,400);
+  for (var i=0; i<150; i++){
+    myArrows[i] = new Arrow(5*i,100);
+  }
+
 }
 
 function draw() {
   background(230);
-myArrow2.draw(mouseX,mouseY);
-  myArrow.draw(mouseX,mouseY);
-  myArrow3.draw(mouseX,mouseY);
-  myArrow4.draw(mouseX,mouseY);
+  fill(0);
+  stroke(0);
+  for(var i = 0; i < myArrows.length; i++){
+    myArrows[i].draw();
+  }
 }
