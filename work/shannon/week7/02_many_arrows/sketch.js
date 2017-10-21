@@ -11,7 +11,7 @@ function setup() {
     for (var x = 0; x < numOfArrows; x++) {
       var xGap = width/numOfArrows;
       var newXPos = xGap/2 + x * xGap;
-      var newI = y + numOfArrows + x;
+      var newI = y * numOfArrows + x;
       myArrows[newI] = new Arrow(newXPos, newYPos, gap/2);
     }
 

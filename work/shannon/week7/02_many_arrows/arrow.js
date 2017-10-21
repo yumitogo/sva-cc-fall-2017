@@ -1,4 +1,4 @@
-function Arrow(x,y, size){
+function Arrow(x, y, size){
   this.x= x;
   this.y= y;
   this.size = size;
