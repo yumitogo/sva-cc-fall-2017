@@ -8,7 +8,7 @@ function setup() {
   for (var i =0; i<100; i++){
     myCircles[i]= new Circle();
     myCircles[i].setup(random(width), random(height),
-    1.5 + random(), 1.5+ random(), 10+ random(5));
+    1.5 + random(), 1.5 + random(), 10 + random(5));
   }
 /*
   myCircle1 = new Circle();
