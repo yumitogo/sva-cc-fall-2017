@@ -7,12 +7,12 @@ function setup() {
   for (var y = 0; y < numOfArrows; y++) {
     var gap = height/numOfArrows;
     var newYPos = gap/2 + y * gap;
-    
+
     for (var x = 0; x < numOfArrows; x++) {
       var xGap = width/numOfArrows;
-      var newXPos = xGap/2 + x + xGap;
+      var newXPos = xGap/2 + x * xGap;
       var newI = y * numOfArrows + x;
-      myArrows[newI] = new Arrow(newXPos, newYPos, gap/2;
+      myArrows[newI] = new Arrow(newXPos, newYPos, gap/2);
     }
   }
 
