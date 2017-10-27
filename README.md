@@ -128,14 +128,19 @@
   * [Array and For loop 2](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/09_array_and_for_loop_arrow/index.html)
   * [Many Arrows](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/10_many_arrows/index.html)
 
-### Week 8 -- Vector / Force / Particle System
+### Week 8 -- Array 2 / Particle System
 * Topics
-  * Particle System
+  * Quiz
+  * Daito Manabe
+    * [Face](https://www.youtube.com/watch?v=pLAma-lrJRM)
+    * [Nike Free](https://www.youtube.com/watch?v=uS1exujG3cY)
+    * [Nosaj Thing](https://www.youtube.com/watch?v=pGoWKeSWufQ)
+  * Array 
   * Vector
   * Force
 * Examples
 
-### Week 9 -- Physics
+### Week 9 -- Vector / Physics
 * Topics
   * [Gravity](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/01_gravity/index.html)
   * Doodle jump
