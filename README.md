@@ -135,10 +135,8 @@
     * [Face](https://www.youtube.com/watch?v=pLAma-lrJRM)
     * [Nike Free](https://www.youtube.com/watch?v=uS1exujG3cY)
     * [Nosaj Thing](https://www.youtube.com/watch?v=pGoWKeSWufQ)
-  * Array 
+  * Array
   * Vector
-  * Force
-* Examples
 
 ### Week 9 -- Vector / Physics
 * Topics
