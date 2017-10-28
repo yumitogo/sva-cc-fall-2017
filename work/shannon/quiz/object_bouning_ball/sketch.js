@@ -11,7 +11,7 @@ function setup() {
     // ball3.setup(300,height,30);
 
   for (var i = 0; i <10; i++){
-    balls = new ball( 100, height);
+    balls = new ball( 100+100 , height);
   }
 }
 
@@ -29,7 +29,7 @@ function ball (x,y){
     this.x;
     this.y;
     this.size=10;
-
+    
     this.move= function() {
       this.x = this.x + Math.random() - 0.5;
       this.y = this.y - Math.random()*0.5;
