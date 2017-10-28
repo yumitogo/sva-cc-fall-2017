@@ -1,26 +1,21 @@
-var ball1;
-var ball2;
-var ball3;
+var balls = [];
 
 function setup() {
   createCanvas(400, 400);
-  // create a Ball class to make Ball object by calling new command.
-  ball1 = new Ball (width/2, height);
-  ball2 = new Ball (100, height);
-  ball3 = new Ball (200, height);
-}
 
+  for ( var i = 0; i <3 ; i++){
+    balls[i] = new Ball(100 * i, height);
+  }
+}
 
 
 
 function draw() {
   background(100);
-  ball1.move();
-  ball1.display();
-  ball2.move();
-  ball2.display();
-  ball3.move();
-  ball3.display();
+  for (var i = 0; i <balls.length; i++) {
+    balls[i].move();
+    balls[i].display();
+  }
 }
 
 
