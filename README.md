@@ -138,35 +138,30 @@
   * Array
   * Vector
 
-### Week 9 -- Particle System / Physics
+### Week 9 -- Vector / Force
 * Topics
-  * [Gravity](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/01_gravity/index.html)
-  * Doodle jump
+  * Vector calcuration
+  * Make things move
 * Examples
 
-### Week 10 -- Flocking / Noise -- Assignment 2 due date
+### Week 10 -- Force / Particle -- Assignment 2 due date
 * Assignment review
 * Topics
-  * Particle interaction
-  * Flocking movement
-  * Noise
+  * Force
+  * Particle
 * Examples
 
-### Week 11 -- Asteroid
+### Week 11 -- Particle System / Object Interaction
 * Topics
-  * [Asteroid Game](https://jinsung.github.io/sva-cc-fall-2017/week10/examples/01/)
+  * Noise
 
-### Week 12 -- Asteroid 2 / External Image
+### Week 12 -- Doodle Jump
 
-### Week 13 -- Inverse Kinematics / Data
-* Topics
-  * Inverse Kinematics
-  * [Get data from Internet](https://jinsung.github.io/sva-cc-fall-2017/week12/examples/02_weather/index.html)
+### Week 13 -- Doodle Jump 2
 
-### Week 14
+### Week 14 -- Shooting the arrow
 
 ### Week 15 -- Final Project Presentation
-
 
 ## Students with Disabilities
 
