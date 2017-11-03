@@ -1,14 +1,17 @@
 var myBall;
+
 function setup() {
   createCanvas(500, 500);
   smooth();
-  myBall = new Ball(10, 20, 10, 2, 2.3);
-
+  var loc = createVector(10, 10);
+  var vel = createVector(2, 2.3);
+  myBall = new Ball(loc, 10, vel);
 }
 
 function draw() {
   background(200);
-  myBall.move();
+  myBall.update();
   myBall.bounce(width, height);
+
   myBall.draw();
 }
