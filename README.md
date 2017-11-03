@@ -140,7 +140,9 @@
 
 ### Week 9 -- Vector / Force
 * Topics
-  * Vector calcuration
+  * Casey Reas
+    * [How to draw with Code](https://www.youtube.com/watch?v=_8DMEHxOLQE)
+  * Vector calculation
   * Make things move
 * Examples
 
